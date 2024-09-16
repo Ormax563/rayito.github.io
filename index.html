@@ -39,8 +39,22 @@
 </head>
 
 <body>
+    <div class="menu-wrap">
+	    <nav class="menu">
+	        <!-- Menu Links -->
+	    	<div class="icon-list">
+	    		<a href="index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
+	    		<a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
+	    		<a href="index.html#service"><i class="fa fa-fw fa-globe"></i><span>Service</span></a>
+	    		<a href="index.html#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
+	    		<a href="index.html#blog"><i class="fa fa-fw fa-rss"></i><span>Blog</span></a>
+	    		<a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
+	    	</div>
+	    </nav>
+	</div>
+    <button class="menu-button" id="open-button"></button>
     <!-- navigation bar -->
-    <nav>
+    <!-- <nav>
         <label for="drop" class="toggle" id="main-toggle">
             <span class="nav-icon"></span>
         </label>
@@ -52,99 +66,78 @@
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="#contact-me">Contact me</a></li>
         </ul>
-    </nav>
+    </nav> -->
 
     <!-- introduction -->
-    <header class="grid-system-2 w-900 padding" style="min-height: 60vh;">
+    <header class="grid-system-2 w-900" style="min-height: 60vh; padding-top: 110px;">
         <section class="align-center">
-            <h1 class="medium-spacing" style="text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px; font-family: 'Bebas Neue';">Hola, soy</h1>
-            <h1 class="large" style="color: white; text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; font-family: 'Bebas Neue';">Agustina</h1>
-            <h1 class="large" style="color: white; text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; font-family: 'Bebas Neue';">Micaela</h1>
+            <!-- <h1 class="medium-spacing" style="text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px; font-family: 'Bebas Neue';">Hola, soy</h1> -->
+            <h1 class="large" style="color: rgba(248, 30, 132); font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 95px;">Agustina</h1>
+            <h1 class="large" style="color: rgba(248, 30, 132); font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 95px;">Micaela</h1>
 
-            <p class="justify" style="font-family: 'Caveat'; padding-top: 1rem; line-height: 1.6; font-size: large;">Soy una diseñadora apasionada por la creación de experiencias visuales impactantes y funcionales. Me especializo en diseño gráfico, siempre enfocada en la creatividad y el detalle.</p>
+            <p class="justify" style="font-family: 'Open Sans', sans-serif; font-size: 15px; letter-spacing: 18px;">DISEÑADORA GRÁFICA</p>
             <!-- <p class="justify">Soy una diseñadora apasionada por la creación de experiencias visuales impactantes y funcionales. Me especializo en diseño gráfico, siempre enfocada en la creatividad y el detalle.</p> -->
         </section>
         <section class="center align-center">
-            <img class="max-width max-height" src="assets/logo-rayito.png" alt="profile-picture">
+            <img src="assets/rayito3.png" alt="profile-picture" style="filter: saturate(1); min-width: 42vh; margin: 0px 0px 0px 0px; background-image: linear-gradient(to bottom, rgba(248, 30, 132), transparent); border-radius: 100%; rotate: 5deg;">
         </section>
     </header>
 
 
     <!-- quote -->
-    <article class="baby-pink" style="background-color: rgba(255, 255, 255, 0.794);">
-        <p class="quote uppercase" style="font-family: 'Playpen Sans';">Cada proyecto es una oportunidad para redefinir lo posible</p>
-        <p style="font-family: 'Playpen Sans';">Hagámoslo posible</p>
+    <article class="baby-pink">
+        <p class="quote uppercase" style="font-family: 'Open Sans', sans-serif; color: white; letter-spacing: 10px;">Cada proyecto es un reto personal</p>
     </article>
 
     <!-- about me -->
     <!-- That about me png is something I've made for fun, it has a purple version too, feel free to use it or change it to anything else. -->
-    <section class="wrapper">
-        <section class="margin-auto">
+    <section class="wrapper" id="about">
+        <a name='about'></a><
+        <!-- <section class="margin-auto">
             <img class="max-width max-height" src="assets/about-me.png" alt="about-me-logo">
-        </section>
+        </section> -->
         <section class="justify align-center">
-            <p class="bold">About me</p>
-            <p>Here you may write something captivating and exciting about yourself, so that everyone wants to use that
-                button below.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolor officia nulla in culpa
-                necessitatibus maiores natus quae adipisci magnam. Voluptas voluptatibus voluptatem est fugiat,
-                provident incidunt perferendis fuga soluta?.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius obcaecati labore pariatur quisquam veniam,
-                assumenda consectetur asperiores accusamus fugit. </p>
-            <p class="padding-top"><a href="about-me.html" class="button-outline">More info</a></p>
+            <p style="font-size: xx-large; font-weight: bold;">¡Hola! Soy Agustina Micaela</p>
+            <p style="font-weight: lighter; font-size: medium;">Diseñadora gráfica argentina apasionada por crear piezas visuales únicas y personalizadas.</p>
+            <p style="font-weight: lighter; font-size: medium; line-height: 1.8;">Me especializo en el diseño de candy bars, tarjetas de presentación y todo tipo de imágenes publicitarias para negocios. 
+                Mi objetivo es ayudar a que cada proyecto transmita la esencia de tu marca o evento de manera creativa y memorable. 
+                Con cada diseño, busco conectar con las emociones de las personas y resaltar los detalles que marcan la diferencia. 
+                ¡Me encantaría colaborar contigo y hacer que tus ideas cobren vida!</p>
+            <!-- <p class="padding-top"><a href="about-me.html" class="button-outline">More info</a></p> -->
         </section>
     </section>
-
-    <!-- skills -->
-    <!-- use this to showcase your skills, if you make changes, do not forget to modify the css accordingly -->
-    <section>
-        <h3 class="main-title center padding">Skills</h3>
-    </section>
-    <section class="wrapper">
+    <section class="wrapper" style="display: block !important;">
+        <p style="font-size: xx-large; font-weight: bold; text-align: center;">Habilidades y Servicios</p>
         <section class="column">
-            <p class="padding-bottom">Technical skills</p>
             <section class="skills">
-                <ul class="no-bullet-list no-padding-list-item">
-                    <li>
-                        <p>html</p>
-                        <span class="progress-bar"><span class="html"></span></span>
-                    </li>
-                    <li>
-                        <p>css</p>
-                        <span class="progress-bar"><span class="css"></span></span>
-                    </li>
-                    <li>
-                        <p>javascript</p>
-                        <span class="progress-bar"><span class="javascript"></span></span>
-                    </li>
-                    <li>
-                        <p>php, mysql</p>
-                        <span class="progress-bar"><span class="php"></span></span>
-                    </li>
-                </ul>
-            </section>
-        </section>
-        <section class="column">
-            <p class="padding-bottom">Professional skills</p>
-            <section class="skills">
-                <ul class="no-bullet-list no-padding-list-item">
-                    <li>
-                        <p>communication</p>
-                        <span class="progress-bar"><span class="comm-adapt"></span></span>
-                    </li>
-                    <li>
-                        <p>teamplayer, adaptability</p>
-                        <span class="progress-bar"><span class="team-player"></span></span>
-                    </li>
-                    <li>
-                        <p>problem solving</p>
-                        <span class="progress-bar"><span class="problem-solving"></span></span>
-                    </li>
-                    <li>
-                        <p>open-minded</p>
-                        <span class="progress-bar"><span class="open-minded"></span></span>
-                    </li>
-                </ul>
+                <div class="habilidades" style="display: flex; flex-wrap: wrap;">
+                    <div>
+                        <span class="habilidadtitulo">Adobe Photoshop</span>
+                        <!-- <span class="progress-bar"><span class="html"></span></span> -->
+                        <p>Con experiencia avanzada en Adobe Photoshop, puedo crear composiciones visuales y realizar ediciones profesionales. Manejo herramientas para optimizar imágenes y generar diseños adaptados a cada proyecto</p>
+                    </div>
+                    <div>
+                        <span class="habilidadtitulo">Edición de imágenes</span>
+                        <!-- <span class="progress-bar"><span class="css"></span></span> -->
+                        <p>Especialista en edición de imágenes, desde ajustes de color hasta retoques detallados. Mi objetivo es mejorar la calidad visual manteniendo la esencia original de cada imagen.
+                        </p>
+                    </div>
+                    <div>
+                        <span class="habilidadtitulo">Contenido para redes sociales</span>
+                        <!-- <span class="progress-bar"><span class="javascript"></span></span> -->
+                         <p>Diseño contenido visual para redes sociales que capta la atención y transmite el mensaje de forma clara. Optimizo gráficos y banners para plataformas como Instagram y Facebook.</p>
+                    </div>
+                    <div>
+                        <span class="habilidadtitulo">Logos</span>
+                        <!-- <span class="progress-bar"><span class="php"></span></span> -->
+                         <p>Creo logos únicos que reflejan la identidad de una marca. Diseño logotipos que combinan estética y funcionalidad, dejando una impresión duradera y versátil en distintos medios.</p>
+                    </div>
+                    <div>
+                        <span class="habilidadtitulo">Tarjetas de presentación</span>
+                        <!-- <span class="progress-bar"><span class="php"></span></span> -->
+                         <p>Diseño tarjetas de presentación elegantes y funcionales que reflejan la identidad de la marca o persona, asegurando un impacto visual duradero y profesional.</p>
+                    </div>
+                </div>
             </section>
         </section>
     </section>
@@ -153,7 +146,7 @@
     <!-- Projects -->
     <!-- If you have more projects you are working on at the moment, or just want to show more, double the whole section below without the title and you are good to go -->
     <section>
-        <h3 class="main-title center padding">Projects I am currently working on</h3>
+        <h3 style="font-size: xx-large; font-weight: bold; text-align: center;">Proyectos</h3>
     </section>
     <section class="wrapper">
         <section class="column card justify flex">
@@ -202,30 +195,11 @@
 
     <!-- special thanks -->
     <!-- Here you can see the free resources I've used for the logos and illustrations. Do not forget to give credit to the creators of the free stuffs use may use additionally -->
-    <section>
-        <p class="small thanks justify w-900 padding-left">*Thanks for the illustration:
-            <a class="link colorful-letter" href="https://storyset.com/work" target="_blank">work illustrations</a> by
-            Storyset
-
-        </p>
-        <p class="small thanks justify w-900 padding-left">*Thanks for the icons:
-            <span><a class="link colorful-letter" href="https://www.iconfinder.com/Flatart" target="_blank">flatart,
-                </a></span>
-            <span><a class="link colorful-letter" href="https://www.iconfinder.com/font-awesome" target="_blank">font
-                    awesome, </a></span>
-            <span><a class="link colorful-letter" href="https://www.iconfinder.com/fluent-designsystem"
-                    target="_blank">microsoft, </a></span>
-            <span><a class="link colorful-letter" href="https://www.iconfinder.com/Chanut-is" target="_blank">chanut is
-                    indurstries, </a></span>
-            <span><a class="link colorful-letter" href="https://www.iconfinder.com/Kalashnyk" target="_blank">kalash
-                </a></span>
-            on Iconfinder
-        </p>
-    </section>
 
     <!-- footer -->
     <!-- waits for you to take over! -->
-    <footer>@iluskaland 2024</footer>
+    <footer>Rayito Designs</footer>
+    <script src="main.js"></script>
 </body>
 
 </html>
