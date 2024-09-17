@@ -942,11 +942,17 @@ footer{
 }
 
 /* DARK THEME */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
+
+
     
     body {
         background-color: rgba(45, 45, 45, 1);
         color: white;
+    }
+
+    .photoprofile{
+        background-image: linear-gradient(to bottom, rgb(243, 162, 200), transparent) !important;
     }
 
     .baby-pink {
@@ -1021,7 +1027,7 @@ footer{
             margin-right: 10px;
         }
     }
-}
+} */
 
 .cover{
     min-width: 33rem; 
