@@ -124,8 +124,11 @@ body {
 }
 
 .quote{
-    font-family: 'Covered By Your Grace', cursive, sans-serif;
-    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif; 
+    color: white; 
+    letter-spacing: 8px;
+    font-size: 1.3em;
+    line-height: 1.8;
 }
 
 .uppercase{
@@ -174,6 +177,7 @@ dl,menu,ol,ul {
 	height:100%;
 	overflow:hidden;
 	font-size:0.75em;
+    display: none;
 }
 /* Common styles for menu button and menu-wrap */
 .menu-button,.menu-wrap {
@@ -829,6 +833,32 @@ footer{
 
 /* wrapper on home page looks better with this @media */
 @media screen and (max-width: 750px){
+    .photoprofile {
+        filter: saturate(1);
+        min-width: 25vh !important;
+        max-width: 35vh !important;
+        margin: 0px 0px 0px 0px;
+        background-image: linear-gradient(to bottom, rgba(248, 30, 132), transparent);
+        border-radius: 100%;
+        rotate: 5deg;
+    }
+    .cover{
+        min-width: 10rem !important;
+        max-width: 25rem !important; 
+        text-align: end !important;
+    }
+    
+    .covername {
+        color: rgba(248, 30, 132) !important; 
+        font-family: 'Open Sans', sans-serif !important; 
+        font-weight: 600 !important; 
+        font-size: 50px !important;
+    }
+    .coversubtitle{
+        font-family: 'Open Sans', sans-serif !important;
+        font-size: 15px !important;
+        letter-spacing: 10px !important;
+    }
     .wrapper{
         flex-direction: column;
         gap: 20px 0px;
@@ -849,6 +879,7 @@ footer{
 
 /* media query for hamburger menu with dropdown */
 @media screen and (max-width: 510px){
+    
     .main-nav{
         display: none;
     }
@@ -879,6 +910,7 @@ footer{
 /* media query for smaller screens */
 /* smaller fonts were my way to go */
 @media screen and (max-width: 377px){
+    
     body{
         line-height: 1.5rem;
     }
@@ -906,6 +938,7 @@ footer{
 
 /* DARK THEME */
 @media (prefers-color-scheme: dark) {
+    
     body {
         background-color: rgba(45, 45, 45, 1);
         color: white;
@@ -983,4 +1016,29 @@ footer{
             margin-right: 10px;
         }
     }
+}
+
+.cover{
+    min-width: 33rem; 
+    text-align: end;
+}
+
+.covername {
+    color: rgba(248, 30, 132); 
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600; 
+    font-size: 95px;
+}
+.coversubtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 18px;
+}
+.photoprofile {
+    filter: saturate(1);
+    min-width: 42vh;
+    margin: 0px 0px 0px 0px;
+    background-image: linear-gradient(to bottom, rgba(248, 30, 132), transparent);
+    border-radius: 100%;
+    rotate: 5deg;
 }

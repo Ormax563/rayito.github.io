@@ -40,15 +40,15 @@
 
 <body>
     <div class="menu-wrap">
-	    <nav class="menu">
+	    <nav class="menu" id="menu">
 	        <!-- Menu Links -->
 	    	<div class="icon-list">
-	    		<a href="index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
-	    		<a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
-	    		<a href="index.html#service"><i class="fa fa-fw fa-globe"></i><span>Service</span></a>
-	    		<a href="index.html#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
-	    		<a href="index.html#blog"><i class="fa fa-fw fa-rss"></i><span>Blog</span></a>
-	    		<a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
+	    		<a href="index.html#home" onclick="onClickMenuItem()"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
+	    		<a href="index.html#about" onclick="onClickMenuItem()"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
+	    		<a href="index.html#service" onclick="onClickMenuItem()"><i class="fa fa-fw fa-globe"></i><span>Service</span></a>
+	    		<a href="index.html#portfolio" onclick="onClickMenuItem()"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
+	    		<a href="index.html#blog" onclick="onClickMenuItem()"><i class="fa fa-fw fa-rss"></i><span>Blog</span></a>
+	    		<a href="index.html#contact" onclick="onClickMenuItem()"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
 	    	</div>
 	    </nav>
 	</div>
@@ -69,24 +69,24 @@
     </nav> -->
 
     <!-- introduction -->
-    <header class="grid-system-2 w-900" style="min-height: 60vh; padding-top: 110px;">
-        <section class="align-center" style="min-width: 33rem; text-align: end;">
+    <header class="grid-system-2 w-900" style="min-height: 86vh;">
+        <section class="align-center cover">
             <!-- <h1 class="medium-spacing" style="text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px; font-family: 'Bebas Neue';">Hola, soy</h1> -->
-            <h1 class="large" style="color: rgba(248, 30, 132); font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 95px;">Rayito</h1>
-            <h1 class="large" style="color: rgba(248, 30, 132); font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 95px;">Designs</h1>
+            <h1 class="large covername">Rayito</h1>
+            <h1 class="large covername">Designs</h1>
 
-            <p style="font-family: 'Open Sans', sans-serif; font-size: 15px; letter-spacing: 18px;">DISEÑADORA GRÁFICA</p>
+            <p class="coversubtitle">DISEÑADORA GRÁFICA</p>
             <!-- <p class="justify">Soy una diseñadora apasionada por la creación de experiencias visuales impactantes y funcionales. Me especializo en diseño gráfico, siempre enfocada en la creatividad y el detalle.</p> -->
         </section>
         <section class="center align-center">
-            <img src="assets/rayito3.png" alt="profile-picture" style="filter: saturate(1); min-width: 42vh; margin: 0px 0px 0px 0px; background-image: linear-gradient(to bottom, rgba(248, 30, 132), transparent); border-radius: 100%; rotate: 5deg;">
+            <img src="assets/rayito3.png" alt="profile-picture" class="photoprofile">
         </section>
     </header>
 
 
     <!-- quote -->
     <article class="baby-pink">
-        <p class="quote uppercase" style="font-family: 'Open Sans', sans-serif; color: white; letter-spacing: 10px;">Cada proyecto es un reto personal</p>
+        <p class="quote uppercase">Cada proyecto es un reto personal</p>
     </article>
 
     <!-- about me -->
@@ -96,9 +96,9 @@
         <!-- <section class="margin-auto">
             <img class="max-width max-height" src="assets/about-me.png" alt="about-me-logo">
         </section> -->
-        <section class="justify align-center">
-            <p style="font-size: xx-large; font-weight: bold;">¡Hola! Soy Agustina Micaela</p>
-            <p style="font-weight: lighter; font-size: medium;">Diseñadora gráfica argentina apasionada por crear piezas visuales únicas y personalizadas.</p>
+        <section class="justify align-center" style="margin-top: 3em;">
+            <p style="font-size: xx-large; font-weight: bold; line-height: 1.8; text-align: center;">¡Hola! Soy Agustina Micaela</p>
+            <p style="font-weight: lighter; font-size: medium; line-height: 1.8;">Diseñadora gráfica argentina apasionada por crear piezas visuales únicas y personalizadas.</p>
             <p style="font-weight: lighter; font-size: medium; line-height: 1.8;">Me especializo en el diseño de candy bars, tarjetas de presentación y todo tipo de imágenes publicitarias para negocios. 
                 Mi objetivo es ayudar a que cada proyecto transmita la esencia de tu marca o evento de manera creativa y memorable. 
                 Con cada diseño, busco conectar con las emociones de las personas y resaltar los detalles que marcan la diferencia. 
