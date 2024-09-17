@@ -42,13 +42,13 @@
     <div class="menu-wrap">
 	    <nav class="menu" id="menu">
 	        <!-- Menu Links -->
-	    	<div class="icon-list">
-	    		<a href="index.html#home" onclick="onClickMenuItem()"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
-	    		<a href="index.html#about" onclick="onClickMenuItem()"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
-	    		<a href="index.html#service" onclick="onClickMenuItem()"><i class="fa fa-fw fa-globe"></i><span>Service</span></a>
-	    		<a href="index.html#portfolio" onclick="onClickMenuItem()"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
-	    		<a href="index.html#blog" onclick="onClickMenuItem()"><i class="fa fa-fw fa-rss"></i><span>Blog</span></a>
-	    		<a href="index.html#contact" onclick="onClickMenuItem()"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
+	    	<div class="icon-list" style="float: right; margin-top: 75px; margin-right: 100px;">
+	    		<a href="index.html#home" onclick="onClickMenuItem()"><i class="fa fa-fw fa-home"></i><span>Inicio</span></a>
+	    		<a href="index.html#about" onclick="onClickMenuItem()"><i class="fa fa-fw fa-quote-left"></i><span>Acerca de mí</span></a>
+	    		<a href="index.html#service" onclick="onClickMenuItem()"><i class="fa fa-fw fa-globe"></i><span>Habilidades y Servicios</span></a>
+	    		<a href="index.html#portfolio" onclick="onClickMenuItem()"><i class="fa fa-fw fa-picture-o"></i><span>Proyectos</span></a>
+	    		<!-- <a href="index.html#blog" onclick="onClickMenuItem()"><i class="fa fa-fw fa-rss"></i><span>Blog</span></a> -->
+	    		<a href="index.html#contact" onclick="onClickMenuItem()"><i class="fa fa-fw fa-envelope-o"></i><span>Contacto</span></a>
 	    	</div>
 	    </nav>
 	</div>
@@ -69,8 +69,11 @@
     </nav> -->
 
     <!-- introduction -->
-    <header class="grid-system-2 w-900" style="min-height: 86vh;">
-        <section class="align-center cover">
+    <header class="grid-system-2 w-900" style="min-height: 86vh;" id='home'>
+        
+        <section class="align-center cover" >
+            <a name='home'></a>
+            
             <!-- <h1 class="medium-spacing" style="text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px; font-family: 'Bebas Neue';">Hola, soy</h1> -->
             <h1 class="large covername">Rayito</h1>
             <h1 class="large covername">Designs</h1>
@@ -106,8 +109,9 @@
             <!-- <p class="padding-top"><a href="about-me.html" class="button-outline">More info</a></p> -->
         </section>
     </section>
-    <section class="wrapper" style="display: block !important;">
-        <p style="font-size: xx-large; font-weight: bold; text-align: center; color: rgba(248, 30, 132); line-height: 1.8;">Habilidades y Servicios</p>
+    <section class="wrapper" style="display: block !important;" id="service">
+        <a name='service'></a>
+        <p style="font-size: xx-large; font-weight: bold; text-align: center; color: rgba(248, 30, 132); line-height: 1.8; margin-top: 2em;">Habilidades y Servicios</p>
         <section class="column">
             <section class="skills">
                 <div class="habilidades" style="display: flex; flex-wrap: wrap;">
@@ -145,8 +149,9 @@
 
     <!-- Projects -->
     <!-- If you have more projects you are working on at the moment, or just want to show more, double the whole section below without the title and you are good to go -->
-    <section>
-        <h3 style="font-size: xx-large; font-weight: bold; text-align: center; color: rgba(248, 30, 132); line-height: 1.8;">Proyectos</h3>
+    <section id="portfolio">
+        <a name='portfolio'></a>
+        <h3 style="font-size: xx-large; font-weight: bold; text-align: center; color: rgba(248, 30, 132); line-height: 1.8;  margin-top: 2em;">Proyectos</h3>
     </section>
     <section class="wrapper">
         <section class="column card justify flex">
@@ -177,18 +182,18 @@
             <img class="max-width max-height" src="assets/Contact-me-img.png" alt="contact-me-illustration">
         </section>
         <section class="margin-auto align-center">
-            <h1 class="medium-spacing center">Let's get in touch!<span></span></h1>
+            <h1 class="medium-spacing center">Contactame!<span></span></h1>
             <section class="box-contact margin-auto padding-top">
-                <span>
+                <!-- <span>
                     <a href="https://www.linkedin.com/" target="_blank"><img class="logo" src="assets/linkedin.png"
                             alt=""></a>
-                </span>
+                </span> -->
                 <span>
-                    <a href="https://github.com/" target="_blank"><img class="logo" src="assets/github.png" alt=""></a>
+                    <a href="https://www.instagram.com/designs.rayito07/" target="_blank"><img class="logo" src="assets/insta6.png" alt=""></a>
                 </span>
-                <span>
+                <!-- <span>
                     <a href="mailto:xy@gmail.com" target="_blank"><img class="logo" src="assets/email.png" alt=""></a>
-                </span>
+                </span> -->
             </section>
         </section>
     </section>

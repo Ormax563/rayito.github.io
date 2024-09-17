@@ -154,6 +154,10 @@ body {
 .menu-wrap a {
 	color:#555d7c;
 	outline:none!important;
+    text-decoration: none;
+    color: rgba(248, 30, 132);
+    padding: 20px;
+    font-weight: lighter;
 }
 .menu-wrap a:hover,.menu-wrap a:focus {
 	color: rgba(248, 30, 132);
@@ -526,7 +530,7 @@ footer{
   .logo .line {
     width: 80%;
     height: 2px;
-    background-color: #000;
+    /* background-color: #000; */
     margin: 0 auto;
     margin-top: -10px;
   }
@@ -751,7 +755,7 @@ footer{
 }
 
 .logo{
-    width: 50px;
+    width: 150px !important;
 }
 /* ---------------------------------- */
 
