@@ -39,7 +39,8 @@ body {
     /* margin-top: 10px; */
     font-size: small;
     font-weight: lighter;
-    border-left: solid 1pt;
+    border-left: solid 2pt rgba(248, 30, 132);
+
     /* border-right: solid 1pt; */
     padding-left: 20px;
     min-height: 140px;
